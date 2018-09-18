@@ -1,0 +1,63 @@
+/**index css**/
+
+.container {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 700rpx;
+    display: block;
+}
+
+.bg_top {
+    width: 100%;
+    height: 700rpx;
+}
+
+.container .temp {
+    font-size: 170rpx;
+    font-weight: bold;
+}
+
+.container .currentWeather {
+    padding: 60rpx;
+}
+
+.container .road {
+    margin-top: 5rpx;
+}
+
+
+
+.weahterDetail {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 50rpx;
+}
+
+.forcast {
+    padding: 30rpx;
+    margin-left: 16rpx;
+    margin-right: 16rpx;
+    border-bottom: 1rpx solid #eee;
+    justify-content: space-around;
+}
+
+.bg_bottom {
+      width: 100%;
+    height: 400rpx;
+}
+
+.hor{
+  display: flex;
+}
+.center{
+    text-align: center;
+    margin: auto 0;
+}
