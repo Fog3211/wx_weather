@@ -73,6 +73,8 @@ Page({
                 // console.log(res);
 
                 let daily_forecast = res.data.HeWeather6[0].daily_forecast;//3天天气预报
+                console.log(daily_forecast);
+                
                 that.setData({
                     daily_forecast
                 })

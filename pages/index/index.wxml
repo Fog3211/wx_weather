@@ -7,16 +7,15 @@
         <view class="weather">{{cond_txt}} | 空气 {{qlty}}</view>
     </view>
 </view>
-<image src="../../images/1.jpg" class="bg_top"></image>
+<image src="../../images/3.jpg" class="bg_top"></image>
 
 <view wx:for="{{daily_forecast}}" wx:for-item="item" wx:key="index">
     <view class="forcast">
         <view class="center">{{day[index]}}</view>
-        <view class="hor">
-            <view class="center">{{item.cond.txt_d}}|{{qlty}}</view>
+        <view class="qlty">
+            <view class="center">{{item.cond_txt_d}} | {{qlty}}</view>
         </view>
-        <view class="center">{{item.tmp.min}}°/ {{item.tmp.max}}°</view>
+        <view class="center">{{item.tmp_min}}°/ {{item.tmp_max}}°</view>
     </view>
-    <image class="bg_bottom" src="../../images/bg.jpg"></image>
 </view>
-
+<image class="bg_bottom" src="../../images/bg.jpg"></image>

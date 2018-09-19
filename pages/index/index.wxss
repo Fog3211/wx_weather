@@ -14,7 +14,7 @@
 
 .bg_top {
     width: 100%;
-    height: 700rpx;
+    height: 800rpx;
 }
 
 .container .temp {
@@ -30,34 +30,25 @@
     margin-top: 5rpx;
 }
 
-
-
-.weahterDetail {
-    width: 100%;
+.forcast {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    position: absolute;
-    bottom: 50rpx;
+    padding: 30rpx;
+    border-bottom: 1rpx solid rgb(150, 145, 145);
+    justify-content: space-around;    
 }
 
-.forcast {
-    padding: 30rpx;
-    margin-left: 16rpx;
-    margin-right: 16rpx;
-    border-bottom: 1rpx solid #eee;
-    justify-content: space-around;
+.forcast .qlty {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+    margin: auto 0;
 }
 
 .bg_bottom {
-      width: 100%;
-    height: 400rpx;
-}
-
-.hor{
-  display: flex;
-}
-.center{
-    text-align: center;
-    margin: auto 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
 }
